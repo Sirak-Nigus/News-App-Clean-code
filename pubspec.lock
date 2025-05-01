@@ -22,6 +22,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.7.0"
+  archive:
+    dependency: transitive
+    description:
+      name: archive
+      sha256: "2fde1607386ab523f7a36bb3e7edb43bd58e6edaf2ffb29d8a6d578b297fdbbd"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.0.7"
   args:
     dependency: transitive
     description:
@@ -307,6 +315,14 @@ packages:
     description:
       name: floor_common
       sha256: "41c9914862f83a821815e1b1ffd47a1e1ae2130c35ff882ba2d000a67713ba64"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.5.0"
+  floor_generator:
+    dependency: "direct main"
+    description:
+      name: floor_generator
+      sha256: "1499b3ab878a807e6fbe6f140dc014124845cd1df3090a113aae5fa7577a1e77"
       url: "https://pub.dev"
     source: hosted
     version: "1.5.0"
@@ -624,6 +640,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.5.1"
+  posix:
+    dependency: transitive
+    description:
+      name: posix
+      sha256: f0d7856b6ca1887cfa6d1d394056a296ae33489db914e365e2044fdada449e62
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.0.2"
   process_run:
     dependency: transitive
     description:
@@ -632,6 +656,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.2+1"
+  protobuf:
+    dependency: transitive
+    description:
+      name: protobuf
+      sha256: "68645b24e0716782e58948f8467fd42a880f255096a821f9e7d0ec625b00c84d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.0"
   provider:
     dependency: transitive
     description:
@@ -664,6 +696,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.4.2"
+  retrofit_generator:
+    dependency: "direct main"
+    description:
+      name: retrofit_generator
+      sha256: f76fdb2b66854690d5a332e7364d7561fc9dc2b3c924d7956ab8070495e21f6a
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.1.5"
   rxdart:
     dependency: transitive
     description:
@@ -688,11 +728,27 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.1"
+  simple_sparse_list:
+    dependency: transitive
+    description:
+      name: simple_sparse_list
+      sha256: aa648fd240fa39b49dcd11c19c266990006006de6699a412de485695910fbc1f
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.4"
   sky_engine:
     dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.99"
+  source_gen:
+    dependency: transitive
+    description:
+      name: source_gen
+      sha256: "14658ba5f669685cd3d63701d01b31ea748310f7ab854e471962670abcf57832"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.5.0"
   source_span:
     dependency: transitive
     description:
@@ -813,6 +869,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
+  strings:
+    dependency: transitive
+    description:
+      name: strings
+      sha256: "482f1511d2cd8ab9f2c4cc148e6837be8a00c03b9a8eaedbc981a84d9c6305d8"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.2.0"
   synchronized:
     dependency: transitive
     description:
@@ -853,6 +917,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.4.0"
+  unicode:
+    dependency: transitive
+    description:
+      name: unicode
+      sha256: "0d99edbd2e74726bed2e4989713c8bec02e5581628e334d8c88c0271593fb402"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.8"
   uuid:
     dependency: transitive
     description:
