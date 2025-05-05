@@ -6,7 +6,10 @@ import 'package:news_app_cleancode/features/daily_news/domain/repository/article
 class GetNewsArticleUsecase
     implements Usecase<DataState<List<ArticleEntity>>, void> {
   final ArticleRepository _articleRepository;
+
   GetNewsArticleUsecase(this._articleRepository);
+
+  // GetNewsArticleUsecase({this._articleRepository});
   @override
   Future<DataState<List<ArticleEntity>>> call(void params) {
     return _articleRepository.getNewsArticles();
